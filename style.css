@@ -48,17 +48,7 @@ body{
     background: #f4f4f4;
 }
 
-.delete {
-    background-color: #df5b3f;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-}
 
-.delete:hover{
-    background: maroon;
-}
 
 #add-movie{
     width: 400px;
@@ -85,18 +75,52 @@ body{
 #add-movie button:hover{
     background-color: darkgreen;
 }
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+
+button {
+    font-family: inherit;
+    font-size: 14px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    letter-spacing: 1px;
+}
+
 .edit {
     background-color: #9b109b;
     color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
 }
 
-.edit-input {
-    padding: 4px;
-    font-size: 1rem;
+.edit:hover {
+    background-color: #740974;
 }
-.delete:hover{
-    background: maroon;
+
+
+.save {
+    background-color: #3b82f6;
+    color: #fff;
 }
+
+.save:hover {
+    background-color: #1d4ed8;
+}
+
+
+.delete {
+    background-color: #df5b3f;
+    color: #fff;
+}
+
+.delete:hover {
+    background-color: maroon;
+}
+
+
+

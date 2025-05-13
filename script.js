@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const li = document.createElement("li");
         const movieName = document.createElement("span");
         const buttonWrapper = document.createElement("span"); 
-        const deleteBtn = document.createElement("span");
-        const editBtn = document.createElement("span");
+        const deleteBtn = document.createElement("button");
+        const editBtn = document.createElement("button");
 
         // Add content
         movieName.textContent = userInput;
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
         editBtn.classList.add("edit");
         buttonWrapper.classList.add("buttons");
 
-    
+        
         buttonWrapper.appendChild(editBtn);
         buttonWrapper.appendChild(deleteBtn);
 
